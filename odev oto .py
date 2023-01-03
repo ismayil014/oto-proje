@@ -20,3 +20,9 @@ BALL_WIDTH = 50
 BALL_HEIGHT = 50
 BALL_START_X = 30
 BALL_START_Y = 340
+
+HOOP_X = 1100
+HOOP_Y = 600
+
+SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption(APP_NAME)
